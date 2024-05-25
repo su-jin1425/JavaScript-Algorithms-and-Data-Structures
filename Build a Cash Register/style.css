@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* Main Container */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+#change-due {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Input Styles */
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  border: 2px solid #ddd; /* Added border similar to css2 */
+  border-radius: 4px; /* Added border-radius similar to css2 */
+}
+
+.user-input:focus {
+  outline: 3px solid #00aaff; /* Changed focus color to match css2 */
+}
+
+/* Price Screen Styles */
+.price-screen {
+  border: 10px solid #002ead;
+  background-color: #fff;
+  height: 50px;
+  width: 200px;
+  color: #333; /* Changed text color */
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Top Register Styles */
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 35px 35px 0 0;
+  padding-top: 20px;
+  background-color: #002ead;
+  height: 300px;
+  width: 325px;
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 10%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.check-btn-styles {
+  appearance: none;
+  background-color: #007bff; /* Changed background color to match css2 */
+  border: none; /* Removed border */
+  border-radius: 20px; /* Adjusted border-radius */
+  color: #fff; /* Changed text color */
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: normal;
+  margin: 10px;
+  min-height: 60px;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Simplified transition */
+  width: 150px;
+  height: 30px;
+}
+
+.check-btn-styles:disabled {
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.1); /* Changed disabled background color */
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.check-btn-styles:hover {
+  background-color: #0056b3; /* Changed hover color */
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.check-btn-styles:active {
+  background-color: #003f7f; /* Changed active color */
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Cash Drawer Display Styles */
+.cash-drawer-display {
+  font-size: 1.1rem;
+  background-color: #fff; /* Changed background color */
+  height: 95%;
+  border-radius: 10px;
+  color: #333; /* Changed text color */
+  padding: 10px;
+  height: 250px;
+}
